@@ -47,8 +47,16 @@
 
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
-    <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    <!-- Title (linked to arXiv/DOI/website when available) -->
+    {% if entry.arxiv or entry.eprint %}
+      <div class="title"><a href="https://arxiv.org/abs/{{ entry.arxiv | default: entry.eprint }}">{{ entry.title }}</a></div>
+    {% elsif entry.doi %}
+      <div class="title"><a href="https://doi.org/{{ entry.doi }}">{{ entry.title }}</a></div>
+    {% elsif entry.website %}
+      <div class="title"><a href="{{ entry.website }}">{{ entry.title }}</a></div>
+    {% else %}
+      <div class="title">{{ entry.title }}</div>
+    {% endif %}
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -187,6 +195,7 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      <a href="{{ '/bibliography/' | append: entry.key | append: '.html' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Details</a>
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}

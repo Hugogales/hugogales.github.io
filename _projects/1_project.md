@@ -1,81 +1,56 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Undergraduate Research
+description: Applied research project; methods, contributions, and outcomes.
+img: assets/img/undergraduate-research.jpg
 importance: 1
 category: work
+github: 
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Summary
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project tackles a central problem in cooperative multi‑agent reinforcement learning: enabling a team of learning agents to truly collaborate at scale.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+- Centralized execution: full context for joint actions, but the joint‑action space explodes as team size grows.
+- Decentralized execution: avoids the explosion, but agents must decide what/when/with‑whom to share, making coordination and learning harder.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+We introduce Team‑Attention‑Actor‑Critic (TAAC) to retain centralized execution benefits without joint‑action paralysis. Collaboration is explicit: the actor consults teammates’ internal representations via attention, and a light regularizer nudges agents toward complementary roles. Unlike attention‑based critics used only during training (e.g., MAAC in CTDE), TAAC performs selective, attention‑based exchange at decision time.
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Method (TAAC)
+- Encode each agent’s observation into an embedding.
+- Use multi‑headed attention to let agents query teammates and form a team‑aware embedding.
+- Policy head outputs an action distribution from that embedding.
+- Critic mirrors the flow, conditions on actions, and also keeps a pre‑attention embedding to ease value estimation.
+- Training to promote collaboration:
+  - Multi‑agent baseline for stable policy gradients and credit assignment.
+  - Light “conformity” loss discouraging identical representations, encouraging diverse yet compatible roles.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Evaluation
+- Domain: simulated 3‑v‑3 soccer where teamwork is essential.
+- Observations: relative positions, ball kinematics, goals, and boundaries.
+- Actions: small set of movement and kick options.
+- Rewards: shaping toward ball, team progress to opponent goal, scoring bonus, spacing incentive.
+- Curriculum: static → random → league play vs past agents.
+- Baselines: PPO (decentralized) and MAAC (attention‑critic with decentralized execution).
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Results
+- TAAC achieves the strongest league performance and clearer collaborative behavior (connectivity, purposeful possession exchanges resembling passing).
+- PPO is competitive but often settles into spread shapes with clustered attackers (lower connectivity).
+- MAAC underperforms here, likely due to sensitivity and limited training.
 
-{% raw %}
+### Next steps
+- Retune and train MAAC longer; run ablations (actor‑attention, critic‑attention, conformity loss); test in additional cooperative domains and under partial observability or bandwidth limits.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+Below is a video of TAAC going against PPO in the football environment.
 
-{% endraw %}
+{% include video.liquid path="assets/video/football.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+
+I am currently working on extending these results to other environments. Below is a video of how it is going so far. In this environment the goal is for the boxes to learn to stack on top of each other such that they can reach the highest point possible (i.e., build the tallest tower).
+
+{% include video.liquid path="assets/video/boxjump.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+
+
+
+

@@ -1,200 +1,233 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Hugo Garrido-Lestache",
+    "label": "Senior Computer Science Student",
+    "image": "assets/img/prof_pic_color.png",
+    "email": "Hugo@garrido-lestache.co.uk",
+    "phone": "",
+    "url": "https://hugogales.github.io/",
+    "summary": "Senior CS student at MSOE; dual-enrolled in M.S. Machine Learning. Interested in AI and reinforcement learning with research and industry experience.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "",
+      "city": "Milwaukee",
       "countryCode": "US",
-      "region": "California"
+      "region": "Wisconsin"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "Hugogales",
+        "url": "https://github.com/Hugogales"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "hugo-garrido-lestache",
+        "url": "https://www.linkedin.com/in/hugo-garrido-lestache/"
+      },
+      {
+        "network": "YouTube",
+        "username": "@hugoDoesA",
+        "url": "https://www.youtube.com/@hugoDoesA"
       }
     ]
   },
   "work": [
+        {
+      "name": "MSOE",
+      "position": "Research Assistant",
+      "url": "",
+      "startDate": "2025-01-01",
+      "endDate": "2025-12-21",
+      "summary": "Worked in a research project exploring how to improve collaboration in multi agent system",
+      "highlights": [
+        "Worked on a research project with a professor from MSOE, Jeremy Kedziora.",
+        "Developing Reinforcement Learning Algorithms to promote Collaboration in Multi-Agent Environments.",
+        "Got State-of-the-art Performance on a soccer environment and tower building environment.",
+        "Presented at a computing symposium and published a paper.",
+        "Came 1st in the MSOE NVIDIA ROSIE Competition winning over $9,000 in prizes."
+      ]
+    },
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Direct Supply",
+      "position": "Data Science Intern",
+      "url": "",
+      "startDate": "2023-11-01",
+      "endDate": "",
+      "summary": "Built and improved AI systems for product data: web scraping, linking, and tagging.",
+      "highlights": [
+        "AI Product Web Scraper: Created an AI tool to search, parse and combine unstructured data on the internet to augment the company’s quality and quantity of data.",
+        "AI Product Linking: Improved AI systems to match products together based on semantic similarity.",
+        "AI Product Tagging: Created a System to add tags/attributes to products automatically based on product data. This data can be used to group and filter products and feed future AI Models.",
+        "Developed and Deployed to AWS Full-Stack (FastAPI/React) web applications prototypes.",
+        "Heavily utilized OpenAI and Groq, pre-trained LLMs and Embedding models."
+
+      ]
+    },
+    {
+      "name": "MSOE",
+      "position": "Programming Tutor",
+      "url": "",
+      "startDate": "2023-09-01",
+      "endDate": "2023-12-01",
+      "summary": "Tutored ~20 students weekly in programming concepts.",
+      "highlights": []
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "MSOE AI Club",
+      "location": "Milwaukee, WI",
+      "position": "Mentor",
+      "url": "",
+      "startDate": "2024-10-01",
+      "endDate": "",
+      "summary": "Mentored members on AI concepts; members built CNNs on chosen datasets.",
+      "highlights": []
+    },
+    {
+      "organization": "UK Scouts",
+      "location": "United Kingdom",
+      "position": "Adult Scout Leader",
+      "url": "",
+      "startDate": "2020-09-01",
+      "endDate": "2022-06-01",
+      "summary": "Planned events and taught skills to scouts (20–25 youth).",
+      "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Milwaukee School of Engineering",
+      "location": "Milwaukee, WI",
+      "url": "https://www.msoe.edu/",
+      "area": "Computer Science",
+      "studyType": "B.S.",
+      "startDate": "2022-09-01",
+      "endDate": "2025-12-01",
+      "score": "GPA 3.95",
+      "courses": []
+    },
+    {
+      "institution": "University of Lucca",
+      "location": "Lucca, Italy",
+      "url": "",
+      "area": "Game Design & Game Theory Course",
+      "studyType": "Short Course",
+      "startDate": "2023-06-01",
+      "endDate": "2023-06-30",
+      "score": "",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "1st in NVIDIA ROSIE Supercomputer Challenge",
+      "date": "2025-01-01",
+      "awarder": "MSOE & NVIDIA",
+      "url": "",
+      "summary": "Won the ROSIE competition; over $9,000 in prizes."
+    },
+    {
+      "title": "Mr. MSOE",
+      "date": "2023-01-01",
+      "awarder": "Society of Women Engineers",
+      "url": "",
+      "summary": "Mr. MSOE 2023."
+    },
+    {
+      "title": "Dean’s List with High Honors (6x)",
+      "date": "2022-01-01",
+      "awarder": "MSOE",
+      "url": "",
+      "summary": "Multiple semesters 2022–2024."
+    },
+    {
+      "title": "5th in MICS Programming Competition",
+      "date": "2024-01-01",
+      "awarder": "MICS",
+      "url": "",
+      "summary": "Placed 5th in regional competition."
+    },
+    {
+      "title": "Gold Scout Award",
+      "date": "2021-01-01",
+      "awarder": "Scouts",
+      "url": "",
+      "summary": "Gold Scout Award."
+    },
+    {
+      "title": "Fundamentals of Deep Learning",
+      "date": "2024-01-01",
+      "awarder": "NVIDIA",
+      "url": "",
+      "summary": "Certificate."
+    },
+    {
+      "title": "Silver Duke of Edinburgh Award",
+      "date": "2020-01-01",
+      "awarder": "DofE",
+      "url": "",
+      "summary": "Silver award."
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
+  "certificates": [],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Enhancing Multi-Agent Collaboration with Attention-Based Actor-Critic Policies",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2507.22782",
+      "summary": "Published a paper on a research project exploring how to improve collaboration in multi agent system"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Enhancing Multi-Agent Collaboration with Attention-Based Actor-Critic Policies",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2507.22782",
+      "summary": "Published a paper on a research project exploring how to improve collaboration in multi agent system"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Languages",
+      "level": "",
+      "icon": "",
+      "keywords": ["Python", "SQL", "Java", "C#", "C++", "C", "HTML"]
+    },
+    {
+      "name": "Concepts",
+      "level": "",
+      "icon": "",
+      "keywords": ["AI", "Machine Learning", "Reinforcement Learning", "Statistics", "EDA", "Agile & Scrum"]
+    },
+    {
+      "name": "Algorithms",
+      "level": "",
+      "icon": "",
+      "keywords": ["Transformers", "Embedding Models", "PPO", "Q-Learning", "KNN", "KMeans", "SARIMA"]
+    },
+    {
+      "name": "Technologies",
+      "level": "",
+      "icon": "",
+      "keywords": ["Git", "Vim", "LLM", "RAG", "AWS", "Docker", "Databricks", "Android SDK", "APIs", "PyTorch", "TensorFlow"]
+    },
+    {
+      "name": "Other",
+      "level": "",
+      "icon": "",
+      "keywords": ["Fluent in Spanish", "Learning Portuguese"]
     }
   ],
   "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
+    { "language": "English", "fluency": "Fluent", "icon": "" },
+    { "language": "Spanish", "fluency": "Native", "icon": "" },
+    { "language": "Portuguese", "fluency": "Learning", "icon": "" }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Hobbies",
+      "icon": "",
+      "keywords": ["Guitar", "Climbing", "Puzzles", "Yo-yo", "Origami", "Unicycle", "Cooking", "Gaming", "Memes"]
     }
   ]
 }
