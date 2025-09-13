@@ -474,7 +474,7 @@ ninja.data = [{
               window.location.href = "/projects/Wordle/";
             },},{id: "projects-llm-project",
           title: 'LLM Project',
-          description: "Built an LLM-powered application; data prep, prompting, evaluation.",
+          description: "Tried to make my own LLM.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/llm/";
             },},{id: "projects-undergraduate-research",
