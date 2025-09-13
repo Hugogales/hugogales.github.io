@@ -28,4 +28,4 @@ To improve the algorithm I mostly attempted playing with hyperparameters simply 
 
 Below is a video of it working:
 
-{% include video.liquid path="assets/video/Snake-q-learning.mp4" title="Snake Q-Learning Agent Demo" width="560" height="315" %}
+{% include video.liquid path="assets/video/Snake-q-learning.mp4" title="Snake Q-Learning Agent Demo" width="560" height="315" controls=true %}

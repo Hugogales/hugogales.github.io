@@ -1,7 +1,7 @@
 ---
 layout: page
 title: LLM Project
-description: Built an LLM-powered application; data prep, prompting, evaluation.
+description: Tried to make my own LLM.
 img: assets/img/LLM.png
 importance: 3
 category: Spotlight
