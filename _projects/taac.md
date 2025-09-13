@@ -58,6 +58,4 @@ Planned next steps: evaluate across more environments, test scalability to many 
 
 Please reach out with any questions, ideas or feedback (if I am being an idiot).
 Read more about my work here: [TAAC paper on arXiv](https://arxiv.org/abs/2507.22782)
-{: .mt-2 }
-<a class="btn btn-sm z-depth-0" href="https://arxiv.org/abs/2507.22782" role="button">arXiv</a>
 
