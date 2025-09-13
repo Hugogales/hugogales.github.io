@@ -9,26 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
-          title: "publications",
-          description: "publications by categories in reversed chronological order.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
-        },{id: "nav-projects",
+  },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Some stuff I am or have worked on...",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+        },{id: "nav-publications",
+          title: "publications",
+          description: "Some papers I have been a part of...",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -44,12 +37,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/youtube/";
           },
+        },{id: "nav-articles",
+          title: "articles",
+          description: "A few articles about me.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/articles/";
+          },
         },{id: "nav-contact",
           title: "contact",
           description: "Get in touch",
           section: "Navigation",
           handler: () => {
             window.location.href = "/contact/";
+          },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -422,34 +429,59 @@ ninja.data = [{
             },},{id: "news-i-have-came-1st-in-the-rosie-competition",
           title: 'I have came 1st in the ROSIE Competition',
           description: "",
-          section: "News",},{id: "news-i-have-published-a-paper-i-am-really-proud-of-i-am-still-working-on-making-it-better-tho",
-          title: 'I have published a paper I am really proud of (I am still...',
+          section: "News",},{id: "news-my-paper-has-been-accepted-into-icmla",
+          title: 'My paper has been accepted into ICMLA!',
           description: "",
-          section: "News",},{id: "projects-undergraduate-research",
-          title: 'Undergraduate Research',
-          description: "Applied research project; methods, contributions, and outcomes.",
+          section: "News",},{id: "projects-ai-image-detector",
+          title: 'AI image detector',
+          description: "Made and tested various models to detect AI from real images.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-llm-project",
-          title: 'LLM Project',
-          description: "Built an LLM-powered application; data prep, prompting, evaluation.",
+              window.location.href = "/projects/AIImage/";
+            },},{id: "projects-projects-at-direct-supply",
+          title: 'Projects at Direct Supply',
+          description: "Made and tested various models to detect AI from real images.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-wordle-app",
-          title: 'Wordle App',
-          description: "Replicated Wordle in Java with clean UI and game logic.",
+              window.location.href = "/projects/DirectSupply/";
+            },},{id: "projects-emotion-recognition-cnn",
+          title: 'Emotion Recognition CNN',
+          description: "First AI project: a CNN for emotion recognition trained on a Kaggle dataset",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
+              window.location.href = "/projects/Emotion/";
             },},{id: "projects-rag-system",
           title: 'RAG System',
           description: "Basic Retrieval‑Augmented Generation system built from scratch.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
+              window.location.href = "/projects/RAG/";
+            },},{id: "projects-research-on-developing-education-ai-tool",
+          title: 'Research on Developing Education AI Tool',
+          description: "Testing LLM-Based Programming Education Tools with With Ethan Jeffers &amp; Ethan Wrasman.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/SchoolAI/";
+            },},{id: "projects-undergraduate-research",
+          title: 'Undergraduate Research',
+          description: "Generating Sound on Silent Video, with Adam Haile &amp; Helina Mulugeta",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/SilentVideo/";
             },},{id: "projects-snake-q-learning",
           title: 'Snake Q‑Learning',
           description: "Trained an agent to play Snake using Q‑learning.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
+              window.location.href = "/projects/Snake/";
+            },},{id: "projects-wordle-app",
+          title: 'Wordle App',
+          description: "Replicated Wordle and made a sick AI.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Wordle/";
+            },},{id: "projects-llm-project",
+          title: 'LLM Project',
+          description: "Built an LLM-powered application; data prep, prompting, evaluation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/llm/";
+            },},{id: "projects-undergraduate-research",
+          title: 'Undergraduate Research',
+          description: "Applied research project; methods, contributions, and outcomes.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/taac/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -465,25 +497,11 @@ ninja.data = [{
           window.open("https://github.com/Hugogales", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/hugo-garrido-lestache", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -498,13 +516,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://youtube.com/@HugoDoesAI", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
         },
       },{
       id: 'light-theme',
