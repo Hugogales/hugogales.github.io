@@ -7,3 +7,13 @@
 
 "Vision":
   color: "#009f36"
+
+"ICMLA":
+  url: https://www.icmla-conference.org/
+  color: "#0b5ed7"
+  icon: "🎓"
+
+"MICS":
+  url: https://micsymposium.org/
+  color: "#8b0000"
+  icon: "🎓"

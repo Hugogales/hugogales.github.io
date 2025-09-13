@@ -12,7 +12,7 @@ profile:
     <p>Milwaukee, WI</p>
     <p>Hugo@garrido-lestache.co.uk</p>
 
-selected_papers: True # disabled until publications are added
+selected_papers: False # disabled until publications are added
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -26,10 +26,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m Hugo Garrido‑Lestache, a Computer Science student at the Milwaukee School of Engineering (MSOE), originally from Spain and raised in London. I’m dual‑enrolled in the M.S. in Machine Learning, and I focus on AI and reinforcement learning. I enjoy building AI and doing Research Projects. I like to cook, play guitar, go climbing, build lego, watch TV and have fun.
+I’m Hugo Garrido‑Lestache, a Computer Science student at the Milwaukee School of Engineering (MSOE), originally from Spain and raised in London when I was 8. I’m dual‑enrolled in the M.S. in Machine Learning and the bachelor’s in Computer Science, and I enjoy learning about and making AI. I like doing research projects especially in RL and would like to pursue a PhD in that space.
 
-Focus areas:
-- Reinforcement Learning (Multi-Agent RL)
-- AI/ML (LLMs, RAGs, Embedding Models)
+Around my friends I am called *puzzle dealer*. This is because I have a massive collection of puzzles (not jigsaws, those are not real puzzles, stuff like hanayama puzzles) which I like to solve and then give them out and share them when I am done. I love the Aha feeling I get from solving puzzles and generally thinking outside the box. If there was a career in solving puzzles I would do it. I have chosen to build and research AI because at times it feels like I am solving a puzzle. I love when I have to think outside the box to solve, when making AIs, and I can distinctly remember all of my Aha moments in my favourite projects. I aspire to make it my career to work with problems which can fuel my puzzle-loving self.
 
+Apart from my projects, my internship, school and projects, I try to have a life (sometimes don’t succeed). I absolutely love climbing and have gotten pretty good I think. I love to watch anime, shows and movies. I like to play board games. When playing board games I sometimes intentionally turn into the joker and forget about the goal and attempt to accomplish some goal I set out for myself. I like video games, playing guitar and I am quite good at the yo-yo. I once tried to learn how to monocycle too. I also like cooking but mostly because I absolutely love eating!!
 
+Please reach out to me if you want; however, I warn you that I follow an epsilon-greedy policy and one of my potential actions is to bite.

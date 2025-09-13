@@ -17,7 +17,7 @@ github_username: Hugogales # your GitHub user name
 # gitlab_username: # your GitLab user name
 # hal_id: # your HAL id (https://hal.science/)
 # ieee_id: # your ieeexplore.ieee.org/author/id
-inspirehep_id:  # Inspire HEP author ID (not applicable)
+#inspirehep_id: False # Inspire HEP author ID (not applicable)
 # instagram_id: # your instagram id
 # kaggle_id: # your kaggle id
 # keybase_username: # your keybase user name
@@ -33,7 +33,7 @@ linkedin_username: hugo-garrido-lestache # your LinkedIn user name
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-rss_icon: true # comment this line to hide the RSS icon
+#rss_icon: False # comment this line to hide the RSS icon
 scholar_userid: gHnPFVIAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
@@ -49,8 +49,9 @@ scholar_userid: gHnPFVIAAAAJ # your Google Scholar ID
 # work_url: # work page URL
 # x_username: # your X handle
 youtube_id: HugoDoesAI
+#youtube_channel_id: UCq4DMEuK3PklO5bH0IJlHdw
 # zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  logo:  # can be png, svg, jpg
-  title: 
-  url: 
+#custom_social: # can be any name here other than the ones already defined above
+  #logo:  # can be png, svg, jpg
+  #title: 
+  #url: 

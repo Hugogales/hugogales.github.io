@@ -38,14 +38,15 @@
       "position": "Research Assistant",
       "url": "",
       "startDate": "2025-01-01",
-      "endDate": "2025-12-21",
+      "endDate": "",
       "summary": "Worked in a research project exploring how to improve collaboration in multi agent system",
       "highlights": [
         "Worked on a research project with a professor from MSOE, Jeremy Kedziora.",
         "Developing Reinforcement Learning Algorithms to promote Collaboration in Multi-Agent Environments.",
         "Got State-of-the-art Performance on a soccer environment and tower building environment.",
-        "Presented at a computing symposium and published a paper.",
-        "Came 1st in the MSOE NVIDIA ROSIE Competition winning over $9,000 in prizes."
+        "Presented at a computing symposium and published a paper as the first author.",
+        "Came 1st in the MSOE NVIDIA ROSIE Competition winning over $9,000 in prizes.",
+        "Attended ICMLA to present and publish my research."
       ]
     },
     {
@@ -147,7 +148,7 @@
       "date": "2024-01-01",
       "awarder": "MICS",
       "url": "",
-      "summary": "Placed 5th in regional competition."
+      "summary": "actually also joing 1st by number of problems solved."
     },
     {
       "title": "Gold Scout Award",
