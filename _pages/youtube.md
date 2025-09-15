@@ -12,7 +12,7 @@ nav_order: 6
 
 <div class="row row-cols-1 row-cols-md-2">
   <div class="col mb-4">
-    {% include video.liquid path="https://www.youtube.com/embed/YYQEfz6YGi4" title="AI learns to build tower" width="560" height="315" %}
+    {% include video.liquid path="https://www.youtube.com/embed/k6akFSXwZ2I" title="AI learns to build tower" width="560" height="315" %}
   </div>
 </div>
 

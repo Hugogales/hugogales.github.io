@@ -52,7 +52,11 @@ Below is an image of the algorithm:
 ### Next steps
 I’m actively expanding this work to build a more convincing body of evidence for TAAC’s effectiveness. I’m training across new environments—here’s a sneak peek:
 
-{% include video.liquid path="assets/video/boxjump.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    {% include video.liquid path="https://www.youtube.com/embed/k6akFSXwZ2I" title="AI learns to build tower" width="560" height="315" %}
+  </div>
+</div>
 
 Planned next steps: evaluate across more environments, test scalability to many agents, and study conformity‑loss settings. The goal is to really understand how TAAC performs and where it stands versus other methods. I aim to submit this as a journal article once complete.
 
