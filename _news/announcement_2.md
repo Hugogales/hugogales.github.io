@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have been invited to AI Engineering Summit!
-See you all in new york!
+I have came 1st in the ROSIE Competition
