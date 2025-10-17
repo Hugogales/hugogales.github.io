@@ -426,14 +426,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-have-been-invited-to-ai-engineering-summit-see-you-all-in-new-york",
-          title: 'I have been invited to AI Engineering Summit! See you all in new...',
+            },},{id: "news-i-have-came-1st-in-the-rosie-competition",
+          title: 'I have came 1st in the ROSIE Competition',
           description: "",
           section: "News",},{id: "news-my-paper-has-been-accepted-into-icmla",
           title: 'My paper has been accepted into ICMLA!',
           description: "",
-          section: "News",},{id: "news-",
-          title: '',
+          section: "News",},{id: "news-i-have-been-invited-to-ai-engineering-summit-see-you-all-in-new-york",
+          title: 'I have been invited to AI Engineering Summit! See you all in New...',
           description: "",
           section: "News",},{id: "projects-ai-image-detector",
           title: 'AI image detector',
