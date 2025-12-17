@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Hugo Garrido-Lestache",
-    "label": "Senior Computer Science Student",
+    "name": "Hugo Garrido-Lestache Belinchon",
+    "label": "M.S. Machine Learning Student",
     "image": "assets/img/prof_pic_color.png",
     "email": "Hugo@garrido-lestache.co.uk",
     "phone": "",
     "url": "https://hugogales.github.io/",
-    "summary": "Senior CS student at MSOE; dual-enrolled in M.S. Machine Learning. Interested in AI and reinforcement learning with research and industry experience.",
+    "summary": "Interested in AI, Reinforcement Learning, and cooperative multi‑agent systems; 1st in NVIDIA ROSIE Supercomputer Challenge. Published author attending ICMLA 2025.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -39,14 +39,12 @@
       "url": "",
       "startDate": "2025-01-01",
       "endDate": "",
-      "summary": "Worked in a research project exploring how to improve collaboration in multi agent system",
+      "summary": "Developing TAAC, a novel Multi‑Agent Reinforcement Learning algorithm to promote collaboration.",
       "highlights": [
-        "Worked on a research project with a professor from MSOE, Jeremy Kedziora.",
-        "Developing Reinforcement Learning Algorithms to promote Collaboration in Multi-Agent Environments.",
-        "Got State-of-the-art Performance on a soccer environment and tower building environment.",
-        "Presented at a computing symposium and published a paper as the first author.",
-        "Came 1st in the MSOE NVIDIA ROSIE Competition winning over $9,000 in prizes.",
-        "Attended ICMLA to present and publish my research."
+        "Advisor: Jeremy Kedziora, Ph.D.",
+        "Used self-play, curriculum learning, and attention-based actor-critic methods to achieve state-of-the-art performance in soccer and tower-building environments.",
+        "Published at ICMLA 2025; presented research and released code and blog.",
+        "Came 1st in the MSOE NVIDIA ROSIE Supercomputer Challenge, winning over $9,000 in prizes."
       ]
     },
     {
@@ -57,12 +55,12 @@
       "endDate": "",
       "summary": "Built and improved AI systems for product data: web scraping, linking, and tagging.",
       "highlights": [
+        "Reverse Image Search: Prototyped a system to search for products by image for faster retrieval and matching.",
         "AI Product Web Scraper: Created an AI tool to search, parse and combine unstructured data on the internet to augment the company’s quality and quantity of data.",
         "AI Product Linking: Improved AI systems to match products together based on semantic similarity.",
         "AI Product Tagging: Created a System to add tags/attributes to products automatically based on product data. This data can be used to group and filter products and feed future AI Models.",
-        "Developed and Deployed to AWS Full-Stack (FastAPI/React) web applications prototypes.",
-        "Heavily utilized OpenAI and Groq, pre-trained LLMs and Embedding models."
-
+        "Developed and Deployed to AWS Full-Stack (FastAPI/React) web application prototypes.",
+        "Heavily utilized OpenAI and Groq, pre-trained LLMs and embedding models."
       ]
     },
     {
@@ -71,7 +69,7 @@
       "url": "",
       "startDate": "2023-09-01",
       "endDate": "2023-12-01",
-      "summary": "Tutored ~20 students weekly in programming concepts.",
+      "summary": "Tutored approximately 20 students weekly in programming concepts.",
       "highlights": []
     }
   ],
@@ -83,7 +81,7 @@
       "url": "",
       "startDate": "2024-10-01",
       "endDate": "",
-      "summary": "Mentored members on AI concepts; members built CNNs on chosen datasets.",
+      "summary": "Mentoring undergraduates on AI. 2025 cohort built a CNN; 2026 projects include agentic video segmentation, stock prediction, and image colorization.",
       "highlights": []
     },
     {
@@ -98,6 +96,17 @@
     }
   ],
   "education": [
+    {
+      "institution": "Milwaukee School of Engineering",
+      "location": "Milwaukee, WI",
+      "url": "https://www.msoe.edu/",
+      "area": "Machine Learning",
+      "studyType": "M.S.",
+      "startDate": "2025-01-01",
+      "endDate": "2026-08-31",
+      "score": "",
+      "courses": []
+    },
     {
       "institution": "Milwaukee School of Engineering",
       "location": "Milwaukee, WI",
@@ -126,8 +135,15 @@
       "title": "1st in NVIDIA ROSIE Supercomputer Challenge",
       "date": "2025-01-01",
       "awarder": "MSOE & NVIDIA",
-      "url": "",
+      "url": "https://www.msoe.edu/about-msoe/news/details/rosie-supercomputer-super-challenge-winners-demonstrate-computing-prowess/",
       "summary": "Won the ROSIE competition; over $9,000 in prizes."
+    },
+    {
+      "title": "Runner-Up, CRA Outstanding Undergraduate Researcher Award (Top 2%)",
+      "date": "2026-01-01",
+      "awarder": "CRA",
+      "url": "https://cra.org/about/awards/outstanding-undergraduate-researcher-award/",
+      "summary": ""
     },
     {
       "title": "Mr. MSOE",
@@ -155,7 +171,7 @@
       "date": "2024-01-01",
       "awarder": "MICS",
       "url": "",
-      "summary": "actually also joing 1st by number of problems solved."
+      "summary": "Tied for 1st by number of problems solved; placed 5th overall."
     },
     {
       "title": "Gold Scout Award",
@@ -165,10 +181,17 @@
       "summary": "Gold Scout Award."
     },
     {
+      "title": "Invitation to AI Engineer Code Summit",
+      "date": "2025-01-01",
+      "awarder": "AI Engineer",
+      "url": "https://www.ai.engineer/code",
+      "summary": ""
+    },
+    {
       "title": "Fundamentals of Deep Learning",
       "date": "2024-01-01",
       "awarder": "NVIDIA",
-      "url": "",
+      "url": "https://learn.nvidia.com/certificates?id=244558442ae846de954e3b98a19d4a59",
       "summary": "Certificate."
     },
     {
@@ -183,15 +206,15 @@
   "publications": [
     {
       "name": "Enhancing Multi-Agent Collaboration with Attention-Based Actor-Critic Policies",
-      "publisher": "arXiv",
+      "publisher": "ICMLA 2025",
       "url": "https://arxiv.org/abs/2507.22782",
-      "summary": "Published a paper on a research project exploring how to improve collaboration in multi agent system"
+      "summary": "Introduces TAAC to enhance collaboration in multi-agent systems using attention-based actor-critic policies."
     },
     {
-      "name": "Enhancing Multi-Agent Collaboration with Attention-Based Actor-Critic Policies",
-      "publisher": "arXiv",
-      "url": "https://arxiv.org/abs/2507.22782",
-      "summary": "Published a paper on a research project exploring how to improve collaboration in multi agent system"
+      "name": "Silent Video Sound Generation",
+      "publisher": "MICS 2024 (Oral)",
+      "url": "https://arxiv.org/abs/2404.17608",
+      "summary": "Uses VQ‑VAE to embed and map silent videos to sound."
     }
   ],
   "skills": [
@@ -211,19 +234,19 @@
       "name": "Algorithms",
       "level": "",
       "icon": "",
-      "keywords": ["Transformers", "Embedding Models", "PPO", "Q-Learning", "KNN", "KMeans", "SARIMA"]
+      "keywords": ["Transformers", "Embedding Models", "PPO", "Q-Learning", "TAAC", "KNN", "KMeans", "SARIMA"]
     },
     {
       "name": "Technologies",
       "level": "",
       "icon": "",
-      "keywords": ["Git", "Vim", "LLM", "RAG", "AWS", "Docker", "Databricks", "Android SDK", "APIs", "PyTorch", "TensorFlow"]
+      "keywords": ["Git", "Vim", "LLM", "RAG", "AWS", "Docker", "Databricks", "Android SDK", "APIs", "PyTorch", "TensorFlow", "FastAPI", "React", "Groq"]
     },
     {
       "name": "Other",
       "level": "",
       "icon": "",
-      "keywords": ["Fluent in Spanish", "Learning Portuguese"]
+      "keywords": ["Fluent in Spanish", "Learning Portuguese", "UK & Spanish Citizen"]
     }
   ],
   "languages": [
@@ -235,7 +258,7 @@
     {
       "name": "Hobbies",
       "icon": "",
-      "keywords": ["Guitar", "Climbing", "Puzzles", "Yo-yo", "Origami", "Unicycle", "Cooking", "Gaming", "Memes"]
+      "keywords": ["Guitar", "Climbing", "Puzzles", "Yo-yo", "Cooking", "Unicycle", "Gaming", "YouTube"]
     }
   ]
 }
